@@ -1,9 +1,10 @@
-import React from 'react';
+import React from "react";
+import Header from "../assets/component/Header";
 
-import '../assets/styles/HomePage.scss';
+import "../assets/styles/HomePage.scss";
 
 function HomePage() {
-  return <h1>Hello world</h1>;
+  return <Header />;
 }
 
 export default HomePage;
