@@ -1,4 +1,4 @@
-Dogecoin
+<h1>Dogecoin</h1>
 
 # Getting Started with Create React App
 
