@@ -1,10 +1,17 @@
-import React from "react";
-import Header from "../assets/component/Header";
+import React from 'react';
 
-import "../assets/styles/HomePage.scss";
+import '../assets/styles/HomePage.scss';
+
+import Navbar from '../assets/components/Navbar.jsx';
+import Header from '../assets/components/Header.jsx';
 
 function HomePage() {
-  return <Header />;
+  return (
+    <>
+      <Navbar />
+      <Header />
+    </>
+  );
 }
 
 export default HomePage;

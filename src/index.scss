@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import './assets/styles/Variables.scss';
+@import './assets/styles/Utilities.scss';
+
+body {
+  margin: 0;
+  font-family: $secondary-font-family;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $primary-color !important;
+  font-family: $primary-font-family;
+}
+
+.btn-secondary,
+.btn-secondary:visited,
+.btn-secondary:focus {
+  background-color: $primary-color !important;
+  border-color: $primary-color !important;
+}
+.btn-secondary:active,
+.btn-secondary:hover {
+  background-color: #545b62 !important;
+  border-color: #4e555b !important;
+}
+
+.btn-outline-secondary,
+.btn-outline-secondary:hover,
+.btn-outline-secondary:active,
+.btn-outline-secondary:visited,
+.btn-outline-secondary:focus {
+  color: $primary-color !important;
+  border-color: $primary-color !important;
+}
+.btn-outline-secondary:active {
+  background-color: $primary-color !important;
+  color: $white-color !important;
+}
+
+::selection {
+  background-color: $dark-color;
+  color: $white-color;
+}

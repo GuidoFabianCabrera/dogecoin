@@ -1,0 +1,47 @@
+@import '../Variables.scss';
+
+.Navbar {
+  background-color: $primary-color;
+  padding: 10px;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logoTitle {
+    color: $white-color;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+  }
+
+  &__logoImage {
+    height: 42px;
+  }
+
+  &__logoContainer {
+    display: flex;
+    align-items: center;
+  }
+
+  &__menuBurguerContainer {
+    background-color: $secondary-color;
+    border-radius: 5px;
+    padding: 10px 10px;
+    color: $primary-color;
+    display: flex;
+    align-items: center;
+  }
+
+  &__menuBurguerTitle {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  &__menuBurguerLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
